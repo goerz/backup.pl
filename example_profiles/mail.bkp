@@ -1,0 +1,17 @@
+# INCLUDE
+find /home/goerz/.fetchmailrc
+find /home/goerz/.forward
+find /home/goerz/.mailboxlist
+find /home/goerz/.procmailrc
+find /home/goerz/.signature
+find /home/goerz/Drafts
+find /home/goerz/mbox
+find /home/goerz/Sent
+find /home/goerz/Trash
+find /home/goerz/.msmtprc
+find /home/goerz/.abook
+
+# VARIABLES
+splitsize = 0
+gzip = 1
+outfile = /home/goerz/backup/mail

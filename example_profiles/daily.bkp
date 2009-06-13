@@ -1,0 +1,33 @@
+# INCLUDE
+find /home/goerz/ -newer /home/goerz/.backup.pl/dailybackup_timestamp
+
+# EXCLUDE
+find /home/goerz/Mail/
+find /home/goerz/mbox
+find /home/goerz/Sent
+find /home/goerz/.vmware
+find /home/goerz/.backup.pl
+
+
+# VARIABLES
+maxsize = 100
+splitsize = 0
+excludepattern = '\.svn'
+excludepattern = '^/home/goerz/\.thunderbird/'
+excludepattern = '^/home/goerz/\.kde/'
+excludepattern = '\.svn'
+excludepattern = '^/home/goerz/\.beagle/'
+excludepattern = '^/home/goerz/mp3/'
+excludepattern = '^/home/goerz/.google/desktop'
+excludepattern = '^/home/goerz/\.googleearth\/Cache/'
+excludepattern = '^/home/goerz/\.googleearth\/Registry'
+excludepattern = '^/home/goerz/Music/'
+excludepattern = '^/home/goerz/.thumbnails/'
+excludepattern = '^/home/goerz/Trash'
+excludepattern = '^/home/goerz/Download/'
+excludepattern = 'backup\.spool'
+excludepattern = '^/home/goerz/backup/'
+excludepattern = '^/home/goerz/\.mozilla'
+gzip = 1
+outfile = /home/goerz/backup/daily
+postcommand = touch /home/goerz/.backup.pl/dailybackup_timestamp

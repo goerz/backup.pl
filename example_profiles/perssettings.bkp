@@ -1,0 +1,39 @@
+# INCLUDE
+find /home/goerz/.fvwm/
+find /home/goerz/.config/
+find /home/goerz/.local/
+find /home/goerz/.purple/
+find /home/goerz/.gnupg/
+find /home/goerz/.inkscape/
+find /home/goerz/.kde/
+find /home/goerz/.kde4/
+find /home/goerz/.sounds/
+find /home/goerz/.Mathematica/
+find /home/goerz/.mozilla/
+find /home/goerz/.Skype/
+find /home/goerz/.ssh/
+find /home/goerz/.unison/
+find /home/goerz/.vmware/
+find /home/goerz/.ispell*
+find /home/goerz/.googleearth/*.kml
+find /home/goerz/.bash*
+find /home/goerz/.aspell*
+find /home/goerz/.fetchmail*
+find /home/goerz/.aspell*
+find /home/goerz/.fonts*
+find /home/goerz/.mail*
+find /home/goerz/.profile*
+find /home/goerz/.Xdefaults*
+find /home/goerz/.crontab*
+find /home/goerz/.subversion/
+find /home/goerz/*.gpg
+find /home/goerz/.vim/spell/*.add
+
+# VARIABLES
+splitsize = 0
+gzip = 1
+excludepattern = '^/home/goerz/\.kde/share/apps/amarok/podcasts/'
+excludepattern = '/Trash/'
+excludepattern = '^/home/goerz/bin/mathematica6/'
+excludepattern = '\.svn'
+outfile = /home/goerz/backup/perssettings

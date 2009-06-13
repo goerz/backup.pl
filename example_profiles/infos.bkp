@@ -1,0 +1,19 @@
+# INCLUDE
+find /proc/config.gz
+find /proc/devices
+find /proc/diskstats
+find /proc/dma
+find /proc/filesystems
+find /proc/interrupts
+find /proc/iomem
+find /proc/meminfo
+find /proc/partitions
+find /home/goerz/.fdisk_data
+find /home/goerz/.crontab*
+
+
+
+# VARIABLES
+splitsize = 0
+gzip = 1
+outfile = /home/goerz/backup/infos
